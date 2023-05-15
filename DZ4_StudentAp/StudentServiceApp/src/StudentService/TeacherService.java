@@ -77,7 +77,7 @@ public class TeacherService implements iUserService<Teacher> {
             }
         }
     }
-    // вывод всех преподавателей из списка отсортированных по имени
+    // вывод всех преподавателей из списка
     public void printSortedTeachers() {
         Collections.sort(teachers, new UserComparator());
         for (Teacher teacher : teachers) {
